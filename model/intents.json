@@ -1,0 +1,40 @@
+{
+    "intents": [
+      {"tag": "greeting",
+       "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "Hey", "Ekse", "Hi"],
+       "responses": ["Hi stranger", "Yebo yes, how can I help", "Ey watsupp", "Ekse Hoezit", "Hola", "Hey dude", "You again"]
+      },
+      {"tag": "goodbye",
+       "patterns": ["Bye", "See you later", "Goodbye", "Ok bye", "Bye Bye"],
+       "responses": ["See you!", "Have a nice day", "Sure Bye", "Later dude", "Sayoonara", "Peace out", "Sure dude", "Ciao"]
+      },
+      {"tag": "thanks",
+       "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+       "responses": ["Happy to help!", "Any time!", "My pleasure", "You are welcome", "Sure dude"]
+      },
+      {"tag": "noanswer",
+       "patterns": [],
+       "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand", "I am still here dude"]
+      },
+      {"tag": "name",
+        "patterns": ["What is your name", "Whats your name", "Tell me your name", "Who are you", "Ungubani", "Tell me about yourself", "You are"],
+        "responses": ["I am E-dith", "My name is E-dith", "You can call me Ed for short", "I am Karabo, my friends call me KB", "Karabo is my name"]
+      },
+      {"tag": "options",
+         "patterns": ["What do you do", "How can you help", "What do you know", "What is your purpose", "How can you help"],
+         "responses": ["I can tell you about arrival and departure timing of bus", "I can give you interesting facts about cbe"]
+      },
+      {"tag": "coimbatore_info",
+        "patterns": ["Coimbatore", "What can you tell me about CBE", "cbe", "Tell me about CBE", "What about cbe", "What do you know about cbe", "Tell me more about cbe", "What can you tell me about cbe", "Tell me about coimbatore", "What about kovai", "What do you know about kovai", "Tell me more about kovai"],
+        "responses": ["Coimbatore district is one of the 38 districts in the state of Tamil Nadu in India, Coimbatore is the administrative headquarters of the district.. Coimbatore is also famous for foundry and automobile industries, manufacturing of textile industry equipment's, spares, motor pump sets, wet grinders and varied engineering goods and services. The development of Hydro electricity from the Pykara Falls in the 1930 led to a cotton boom in Coimbatore."]
+      },
+      {"tag": "coimbatore_to_pollachi_bus_timing",
+        "patterns": ["cbe to pollachi bus timing", "What can you tell me about cbe to pollachi bus timing", "bustiming cbe to pollachi", "What about cbe to pollachi bus timing",  "What can you tell me about cbe to pollachi bustiming", "Tell me about coimbatore to pollachi bus timing", "What about kovai to pollachi bus timing", "What do you know about kovai to pollachi bus timing", "Tell me more about kovai to pollachi bus timing"],
+        "responses": ["4.00 AM to 10.00 PM every 2 minutes once and 10.00 PM to 4.00 AM every 30 minutes once"]
+      },
+      {"tag": "coimbatore_to_salem_bus_timing",
+        "patterns": ["cbe to salem bus timing", "What can you tell me about cbe to salem bus timing", "bustiming cbe to salem", "What about cbe to salem bus timing",  "What can you tell me about cbe to salem bustiming", "Tell me about coimbatore to salem bus timing", "What about kovai to salem bus timing", "What do you know about kovai to salem bus timing", "Tell me more about kovai to salem   bus timing"],
+        "responses": ["Morning - 6:00AM, 7:20AM , 9:55AM , 10:00AM, 10:30AM,Afternoon - 12:20PM , 1:30PM,1:40PM, 2:00PM, 2:25PM, Evening - 4:20PM,5:05PM,7:00PM, Night - 9:45PM, 10:05PM, 10:15PM"]
+      }
+    ]
+  }

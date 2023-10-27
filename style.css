@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Poppins:ital,wght@0,200;0,300;1,200&family=Work+Sans:wght@300&display=swap');
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Poppins', sans-serif
+}
+
+*{
+    overflow: hidden;
+}
+
+.dev {
+    min-height: 100vh;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: rgba(0, 0, 0, 0.95);
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    gap: 2em;
+}
+
+form input {
+    outline: none;
+    border: none;
+    padding: 5px 10px;
+    font-size: 24px;
+    text-transform: capitalize;
+    border-radius: 8px;
+    background-color: #9d9d9d57;
+    color: wheat;
+}
+
+.res {
+    padding: 3em 5em;
+    font-size: 20px;
+    color: white;
+}
