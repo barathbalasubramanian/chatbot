@@ -45,3 +45,13 @@ form input {
     font-size: 20px;
     color: white;
 }
+
+
+@media only screen and (max-width:600px) {
+    form input {
+        font-size: 20px;
+    }
+    .res {
+        padding-left: 26px;
+    }
+}
